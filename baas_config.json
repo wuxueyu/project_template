@@ -1,0 +1,142 @@
+{
+    "baas_dir": "nodejs_api",
+    "baas_name": "2",
+    "current_env": "production",
+    "env": {
+        "development": {
+            "port": 14444,
+            "mongo_uri": "mongodb://127.0.0.1:27017/",
+            "database": "baas1",
+            "welcome": "Geekniu BaaS API dev environment",
+            "extend_path": "extends"
+        },
+        "production": {
+            "port": 10000,
+            "mongo_uri": "mongodb://127.0.0.1:111001/",
+            "database": "baas1",
+            "welcome": "Geekniu BaaS API dev environment",
+            "extend_path": "extends"
+        },
+        "default": {
+            "port": 14444,
+            "mongo_uri": "mongodb://127.0.0.1:27017/",
+            "database": "baas1",
+            "welcome": "Geekniu BaaS API dev environment",
+            "extend_path": "extends"
+        }
+    },
+    "redis_counter": {
+        "data_count_host": "127.0.0.1",
+        "op_data_count_by_user_host": "127.0.0.1",
+        "op_data_count_host": "127.0.0.1",
+        "op_user_count_by_user_host": "127.0.0.1",
+        "op_user_count_host": "127.0.0.1",
+        "data_total_count_host": "127.0.0.1",
+        "op_data_total_count_host": "127.0.0.1",
+        "op_user_total_count_host": "127.0.0.1",
+        "data_count_port": "6379",
+        "op_data_count_by_user_port": "6379",
+        "op_data_count_port": "6379",
+        "op_user_count_by_user_port": "6379",
+        "op_user_count_port": "6379",
+        "data_total_count_port": "6379",
+        "op_data_total_count_port": "6379",
+        "op_user_total_count_port": "6379"
+    },
+    "redis_counter_index": {
+        "data_count_index_host": "127.0.0.1",
+        "op_data_count_by_user_index_host": "127.0.0.1",
+        "op_data_count_index_host": "127.0.0.1",
+        "op_user_count_by_user_index_host": "127.0.0.1",
+        "op_user_count_index_host": "127.0.0.1",
+        "sorted_set_max_num": 1000,
+        "data_count_index_port": "6379",
+        "op_data_count_by_user_index_port": "6379",
+        "op_data_count_index_port": "6379",
+        "op_user_count_by_user_index_port": "6379",
+        "op_user_count_index_port": "6379"
+    },
+    "redis_counter_custom": {
+        "counter_name_host": "127.0.0.1",
+        "counter_name_port": "6379"
+    },
+    "redis_queue": {
+        "host": "127.0.0.1",
+        "port": "6379"
+    },
+    "config_path": {
+        "mongo_config_path": "/data1/config/nodejs_api/mongo/mongo-11001.conf",
+        "mongo_port": "111001",
+        "redis_config_paths": [
+            "/data1/config/nodejs_api/redis/redis-12011.conf",
+            "/data1/config/nodejs_api/redis/redis-12013.conf",
+            "/data1/config/nodejs_api/redis/redis-12014.conf",
+            "/data1/config/nodejs_api/redis/redis-12015.conf",
+            "/data1/config/nodejs_api/redis/redis-12016.conf",
+            "/data1/config/nodejs_api/redis/redis-12017.conf",
+            "/data1/config/nodejs_api/redis/redis-12018.conf",
+            "/data1/config/nodejs_api/redis/redis-12019.conf",
+            "/data1/config/nodejs_api/redis/redis-12020.conf",
+            "/data1/config/nodejs_api/redis/redis-12021.conf",
+            "/data1/config/nodejs_api/redis/redis-12022.conf",
+            "/data1/config/nodejs_api/redis/redis-12023.conf",
+            "/data1/config/nodejs_api/redis/redis-12024.conf",
+            "/data1/config/nodejs_api/redis/redis-12025.conf",
+            "/data1/config/nodejs_api/redis/redis-12026.conf"
+        ],
+        "redis_ports": [
+            "12011",
+            "12013",
+            "12014",
+            "12015",
+            "12016",
+            "12017",
+            "12018",
+            "12019",
+            "12020",
+            "12021",
+            "12022",
+            "12023",
+            "12024",
+            "12025",
+            "12026"
+        ]
+    },
+    "start_config": {
+        "is_analysis": "n",
+        "is_cluster": "n",
+        "is_online": "y"
+    },
+    "analysis_config": {
+        "mongo_client_uri": "",
+        "analysis_database": "",
+        "analysis_prefix": "",
+        "analysis_event_data_redis_host": "",
+        "analysis_event_data_redis_port": "",
+        "analysis_server_url": "",
+        "analysis_user_data_redis_host": "",
+        "analysis_user_data_redis_port": "",
+        "analysis_redis_queue_event_name": "",
+        "analysis_redis_queue_user_name": "",
+        "analysis_redis_queue_dau_name": "",
+        "analysis_dau_redis_host": "",
+        "analysis_dau_redis_port": ""
+    },
+    "mongodb_is_auth": false,
+    "plugins": [],
+    "redis_experience_anti_crowd": {
+        "host": "127.0.0.1",
+        "port": "6379"
+    },
+    "redis_experience_percent": {
+        "host": "127.0.0.1",
+        "port": "6379"
+    },
+    "redis_experience_percent_new": {
+        "host": "127.0.0.1",
+        "port": "6379"
+    },
+    "log_level": {
+        "service": "info"
+    }
+}
